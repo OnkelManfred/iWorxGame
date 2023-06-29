@@ -1,0 +1,204 @@
+@media (max-width:1350px) {
+
+	body {
+		margin: 2rem 5rem;
+	}
+
+	.section {
+		flex-direction: column;
+	}
+
+
+	.sectionreverse {
+		flex-direction: column-reverse;
+	}
+
+	.marginInSection {
+		margin-left: 0;
+		max-width: 100%;
+	}
+
+	.titelSection {
+		line-height: 4.8rem;
+		font-size: 4rem;
+		margin: 1.5rem 0;
+	}
+
+	.divPolygone{
+		padding: 10px 0 0 0;
+		flex-direction: column;
+	}
+
+	.divPolygonBox {
+		width: auto;
+	}
+
+	.hexInSection{
+		margin-left: 20px;
+		display: flex;
+	}
+
+	.divGameEvents{
+		flex-direction: column;
+	}
+
+	.divGameEvent {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.divBrands {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.polygone1 {
+		margin: 0;
+	}
+
+	.polygone2 {
+		margin: 0;
+	}
+
+	.boxes{
+		flex-direction: column;
+	}
+
+	.statsBox{
+		width: auto;
+		margin: 10px 0;
+	}
+
+	#statsBoxCreatingGames {
+	        background: linear-gradient(#4D4F95, #2B2D66);
+	}
+
+	#diablo4 {
+		width: auto;
+	}
+
+	#otherTwo {
+		width: auto;
+	}
+
+	.gameBox {
+		margin: 10px 0;
+	}
+
+	#contract {
+		align-items: start;
+	}
+
+	#contractBackground button {
+	    left: 60px;
+	    box-shadow: 0 0 10px #ffffff;
+	    margin:0;
+	}
+}
+
+@media (max-width:700px) {
+
+	li {
+		text-align: center;
+		margin: 1em 0;
+	}
+
+	.navBarHeader{
+		display: none;
+	}
+
+	.headerBtn {
+		display: none;
+	}
+
+	.menu-icon{
+		display: block;
+	}
+
+	.line1, .line2, .line3 {
+		display: flex;
+		justify-content: right;
+		width: 35px;
+		height: 4px;
+		background-color: #FFFFFF;
+		margin: 6px 0;
+		transition: 0.4s;
+	}
+		
+	.change .line1 {
+		transform: translate(0, 10px) rotate(-45deg);
+	}
+
+	.change .line2 {
+		opacity: 0;
+	}
+
+	.change .line3 {
+		transform: translate(0, -10px) rotate(45deg);
+	}
+
+	#navHeadersmall.change{
+		height: 90vh;
+		display: flex;
+		justify-content: right;
+		flex-direction: column;
+		list-style-type: none;
+		align-items: end
+	}
+
+	#navHeadersmall li {
+		
+	}
+
+	.footerMenuDiv {
+		flex-direction: column;
+	}
+
+	.footerMenuTextBig {
+	    margin: auto;
+	}
+
+	.footerMenuText {
+		margin: 0;
+	  	text-align: center;
+	}
+
+	.divFooter {
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.footerLinks {
+		justify-content: space-between;
+	}
+
+	.divFooterText {
+		margin: 60px 40px;
+	}
+
+	.footerCopyright {
+	    margin: auto;
+	}
+
+	.footerText {
+		margin: 0;
+	}
+
+	#contractBackground{
+		width: 100%f;
+	}
+
+}
+
+@media (max-width:444px) {
+
+	body {
+		margin: 2rem 3rem;
+	}
+
+	.divBrands {
+		flex-wrap: nowrap;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+}
